@@ -21,12 +21,12 @@ By simply pasting a job description, the app securely calls the Gemini AI model 
 * **Language:** TypeScript
 * **Database:** MongoDB & Mongoose
 * **Styling:** Tailwind CSS
-* **AI Engine:** Google Gemini (gemini-2.5-flash)
+* **AI Engine:** Google Gemin.5-flash)
 * **Deployment:** Vercel
 
 ## 🚀 Getting Started Locally
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/apply-ai.git](https://github.com/YOUR_USERNAME/apply-ai.git)
+   git clone [https://github.com/moizeey/apply-ai.git](https://github.com/moizeey/apply-ai.git)
    cd apply-ai
