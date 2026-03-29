@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ApplyAI 🚀 
+**An AI-Powered Job Application Tracker & Cover Letter Generator**
 
-## Getting Started
+![ApplyAI Dashboard](./public/demo.png)
 
-First, run the development server:
+## 📌 Overview
+ApplyAI is a full-stack Next.js application designed to streamline the internship and job hunting process. It replaces messy tracking spreadsheets with a sleek dashboard and utilizes generative AI to eliminate the most tedious part of the application process: writing tailored cover letters.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+By simply pasting a job description, the app securely calls the Gemini AI model to instantly generate a professional, context-aware cover letter, saving it alongside the application status in a MongoDB database.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features & Technical Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Secure AI Integration:** Utilizes **Next.js Server Actions** to securely process the Google Gemini API call on the backend, ensuring private API keys are never exposed to the client browser.
+* **Server-Side Rendering (SSR):** The main dashboard leverages React Server Components to fetch data directly from MongoDB before the page loads, eliminating client-side loading spinners and optimizing performance.
+* **Full CRUD Functionality:** Users can seamlessly add new applications, update their interview status, and delete rejected applications, demonstrating a complete database lifecycle.
+* **Type Safety:** Built entirely with **TypeScript**, utilizing strict interfaces and Mongoose schemas to ensure data integrity between the database and the frontend UI.
+* **Modern UI/UX:** Styled completely with **Tailwind CSS**, featuring responsive CSS grid layouts, interactive dropdowns, and custom animated modal dialogs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Database:** MongoDB & Mongoose
+* **Styling:** Tailwind CSS
+* **AI Engine:** Google Gemini (gemini-2.5-flash)
+* **Deployment:** Vercel
 
-## Learn More
+## 🚀 Getting Started Locally
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/apply-ai.git](https://github.com/YOUR_USERNAME/apply-ai.git)
+   cd apply-ai
