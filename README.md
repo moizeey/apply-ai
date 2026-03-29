@@ -3,6 +3,8 @@
 
 ![ApplyAI Dashboard](./public/demo.png)
 
+**[Live Demo](https://apply-ai-three.vercel.app/).**
+
 ## 📌 Overview
 ApplyAI is a full-stack Next.js application designed to streamline the internship and job hunting process. It replaces messy tracking spreadsheets with a sleek dashboard and utilizes generative AI to eliminate the most tedious part of the application process: writing tailored cover letters.
 
